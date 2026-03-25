@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jagdamba Matching Center</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0f0f0f;color:#fff;scroll-behavior:smooth}
+header{position:fixed;width:100%;top:0;background:rgba(0,0,0,0.8);backdrop-filter:blur(10px);z-index:1000}
+nav{display:flex;justify-content:space-between;align-items:center;padding:15px 40px}
+nav h2{color:#ffb6c1;font-family:'Playfair Display',serif}
+nav a{color:#fff;margin:0 12px;text-decoration:none;transition:.3s}
+nav a:hover{color:#ffb6c1}
+.hero{height:100vh;background:url('https://images.unsplash.com/photo-1610030469983-98e550d6193c') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
+.hero::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))}
+.hero-content{position:relative;z-index:1;animation:fadeIn 2s}
+.hero h1{font-size:3.2rem;margin-bottom:10px;font-family:'Playfair Display',serif}
+.hero p{margin-bottom:20px;font-size:1.1rem}
+.btn{padding:12px 28px;background:#ffb6c1;color:#000;border:none;border-radius:30px;cursor:pointer;transition:.3s;font-weight:600}
+.btn:hover{background:#fff;transform:scale(1.05)}
+section{padding:90px 40px}
+.section-title{text-align:center;margin-bottom:40px;font-size:2rem;font-family:'Playfair Display',serif}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:#1a1a1a;padding:25px;border-radius:20px;text-align:center;transition:.4s}
+.card:hover{transform:translateY(-12px);box-shadow:0 0 25px rgba(255,182,193,0.5)}
+.card img{width:100%;border-radius:12px;margin-bottom:15px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.gallery img{width:100%;border-radius:12px;transition:.4s}
+.gallery img:hover{transform:scale(1.08)}
+.contact{text-align:center}
+.contact p{margin:8px 0}
+footer{background:#000;padding:25px;text-align:center;margin-top:40px}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px;border-radius:50%;font-size:22px;text-decoration:none;box-shadow:0 0 10px #25D366}
+@keyframes fadeIn{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<h2>Jagdamba Matching Center</h2>
+<div>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Perfect Stitching for Every Woman</h1>
+<p>Jagdamba Matching Center – विशेषज्ञ महिलाओं के कपड़ों की सिलाई</p>
+<a href="#contact"><button class="btn">Book Now</button></a>
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Us</h2>
+<p style="text-align:center;max-width:750px;margin:auto;line-height:1.7;">
+At Jagdamba Matching Center, we specialize in traditional Indian ladies tailoring with perfect fitting and premium finishing. Our focus is on quality stitching, elegant designs, and complete customer satisfaction. Every outfit is crafted with care to match your style and comfort.
+</p>
+</section>
+
+<section id="services">
+<h2 class="section-title">Our Services</h2>
+<div class="services">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583391733956-6c78276477e1">
+<h3>Saree Fall & Pico</h3>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0">
+<h3>Blouse Stitching</h3>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603252109303-2751441dd157">
+<h3>Salwar Suit</h3>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c">
+<h3>Lehenga Stitching</h3>
+</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Our Work</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf">
+<img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03">
+<img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990">
+<img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c">
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2 class="section-title">Contact Us</h2>
+<p><strong>Address:</strong> 250, Sector 29, Sanganer, Pratap Nagar, Jaipur</p>
+<p><strong>Phone:</strong> 9468846099, 8302582477</p>
+<p><strong>WhatsApp:</strong> 8302582477</p>
+<iframe src="https://maps.google.com/maps?q=pratap%20nagar%20jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border-radius:15px;margin-top:15px"></iframe>
+</section>
+
+<footer>
+<p>© 2026 Jagdamba Matching Center | All Rights Reserved</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/918302582477">💬</a>
+
+</body>
+</html>
